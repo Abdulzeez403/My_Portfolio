@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="index.css">
+ <title>Automatic typing</title>
+</head>
+<body>
+
+ <div class="container">
+  <div class="content">
+
+  <img src="./image.png" alt="">
+  <h2> I am <span class="text">Coding</span></h2>
+  <p class="bio"></p>
+
+  <button type="button"class="hire">Hire me</button>
+  <button type="button"class="cv">Download CV</button>
+ </div>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+<script>
+ var typed = new Typed(".text",{
+ strings: ['Coding','Abdulzeez Sodiq', ' A Web developer'],
+ typeSpeed: 100,
+ backSpeed: 100,
+ loop: true
+ });
+
+ var typed = new Typed(".bio",{
+strings: [`
+A self taught programmer. I am addicted to learning new things
+and  I love solving problems with a huge ranges of curiosity.`],
+typeSpeed: 60
+
+});
+
+
+
+  </script>
+
+</body>
+</html>

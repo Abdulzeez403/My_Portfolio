@@ -1,0 +1,68 @@
+
+:root{
+ --green: rgb(15, 150, 15);
+ --white: rgba(255, 255, 255, 0.925);
+ --black: rgba(26, 14, 14, 0.927);
+ --yellow: rgb(255, 255, 0);
+}
+  
+*{
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+}
+body{
+ background: var(--black);
+}
+
+.container{
+ width: 80%;
+ margin:10% auto;
+
+}
+.content{
+ text-align: center;
+}
+.container h2{
+ text-align: center;
+ color:var(--green)
+}
+span{
+ color: var(--yellow);
+}
+.bio{
+ margin-top:0.9rem;
+ font-size: 1rem;
+ color: var(--white)
+}
+img{
+ width: 250px;
+ border-radius: 50%;
+ background-color: var(--white);
+ border: 5px solid var(--yellow);
+
+}
+.hire{
+ background-color: var(--green);
+ width:8rem;
+ padding: 0.7rem;
+ border-radius: 0.7rem;
+margin: 1rem;
+border: none;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+
+}
+.cv{
+ background-color: var(--yellow);
+width:8rem;
+padding: 0.7rem;
+border-radius: 0.7rem;
+margin-top:1rem;
+margin: 1rem;
+border: none;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+
+}
