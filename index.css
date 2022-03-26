@@ -48,7 +48,7 @@ img{
  padding: 0.7rem;
  border-radius: 0.7rem;
 margin: 1rem;
-border: none;
+border: 2px solid white;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
 'Lucida Sans', Arial, sans-serif;
 font-weight: bold;
@@ -64,5 +64,7 @@ margin: 1rem;
 border: none;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-weight: bold;
+border: 2px solid rgb(255, 255, 255);
+
 
 }
