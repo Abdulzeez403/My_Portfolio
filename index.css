@@ -35,7 +35,7 @@ span{
  font-size: 1rem;
  color: var(--white)
 }
-img{
+#pro-Image{
  width: 250px;
  border-radius: 50%;
  background-color: var(--white);
@@ -67,4 +67,46 @@ font-weight: bold;
 border: 2px solid rgb(255, 255, 255);
 
 
+}
+
+.about-container{
+ display: flex;
+ justify-content: space-around;
+ margin-top:1rem;
+ margin-bottom: 3rem;
+ 
+}
+.about-img{
+ width: 30%;
+}
+#Image{
+  width: 230px;
+  border: 4px solid white;
+  border-top-left-radius: 10px;
+  filter: drop-shadow(8px 8px 10px gray);
+  filter: hue-rotate(50deg)
+}
+.about-text{
+ width: 55%;
+}
+.about-text >p{
+ color:var(--white)
+}
+.about-text >h4{
+ color: var(--yellow);
+ font-size: 1.3rem;
+ margin-top: 1rem;
+}
+@media (max-width: 900px) {
+ .container{
+  margin: auto;
+ }
+ .about{
+  border: 2px solid red;
+  margin: auto;
+ }
+  .about-container{
+   display: block;
+  
+  }
 }
