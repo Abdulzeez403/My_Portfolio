@@ -12,92 +12,239 @@
  box-sizing: border-box;
 }
 body{
- background: var(--black);
-}
-
-.container{
- width: 80%;
- margin:10% auto;
-
+  scroll-behavior: smooth;
 }
 .content{
+  background: url("background.png");
  text-align: center;
+
 }
 .container h2{
  text-align: center;
- color:var(--green)
+ color:var(--green);
+ margin-top:.5rem;
+ font-family: 'Poppins', sans-serif;
+
 }
 span{
  color: var(--yellow);
 }
 .bio{
- margin-top:0.9rem;
+  width: 50%;
+  margin: auto;
+ margin-top:2.5rem;
  font-size: 1rem;
  color: var(--white)
 }
+.subabout{
+  font-size: .9rem;
+  text-align:justify;
+  text-align:center;
+ font-family: 'Poppins', sans-serif;
+}
 #pro-Image{
- width: 250px;
+ width: 300px;
  border-radius: 50%;
  background-color: var(--white);
- border: 5px solid var(--yellow);
+ border: 5px double var(--white);
 
+}
+.buttons{
+  margin: 2rem;
 }
 .hire{
  background-color: var(--green);
- width:8rem;
- padding: 0.7rem;
+ width:10rem;
+ padding: 1rem;
  border-radius: 0.7rem;
 margin: 1rem;
 border: 2px solid white;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-'Lucida Sans', Arial, sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
 font-weight: bold;
 
 }
 .cv{
  background-color: var(--yellow);
-width:8rem;
-padding: 0.7rem;
+width:10rem;
+padding: 1rem;
 border-radius: 0.7rem;
 margin-top:1rem;
 margin: 1rem;
 border: none;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
 font-weight: bold;
+color: black;
+
 border: 2px solid rgb(255, 255, 255);
-
-
 }
 
+/* About section */
+.about{
+  background: white;
+  
+}
 .about-container{
  display: flex;
  justify-content: space-around;
- margin-top:1rem;
- margin-bottom: 3rem;
- 
+
+}
+.aboutMe{
+text-align:center;
+font-family: 'Poppins', sans-serif;
+color: black;
+
 }
 .about-img{
  width: 30%;
 }
 #Image{
-  width: 230px;
+  width: 20rem;
   border: 4px solid white;
-  border-top-left-radius: 10px;
   filter: drop-shadow(8px 8px 10px gray);
   filter: hue-rotate(50deg)
 }
 .about-text{
- width: 55%;
+ width: 40%;
+ text-align:center
 }
 .about-text >p{
- color:var(--white)
+ color:var(--black);
+font-family: 'Poppins', sans-serif;
+text-align: justify;
+
+ 
 }
-.about-text >h4{
- color: var(--yellow);
+.about-text >h5{
+color: var(--black);
  font-size: 1.3rem;
  margin-top: 1rem;
+font-family: 'Poppins', sans-serif;
+
 }
-@media (max-width: 900px) {
+
+/* Project */
+.projects{
+  background:url("Projectbg.png");
+}
+.project-container{
+  display: flex;
+  justify-content: space-around;
+} 
+.project-Items{
+  width: 22rem;
+  background: white;
+  box-shadow: 10px 10px rgb(216, 215, 215);
+  
+
+}
+.project-image{
+  width: 21.8rem;
+  height: 12rem;
+}
+.project-name{
+  text-align:center;
+font-family: 'Poppins', sans-serif;
+margin-top:.5rem;
+
+
+}
+.project-description{
+  text-align:center;
+font-family: 'Poppins', sans-serif;
+font-size: small;
+margin-top:.5rem;
+
+
+}
+.project-btn{
+  width:fit-content;
+margin: auto;
+margin-top:.5rem;
+
+}
+.pro-btn{
+  background: black;
+  color: white;
+ padding:.6rem;
+ width:10rem;
+font-family: 'Poppins', sans-serif;
+
+}
+.footer{
+  background:black;
+
+}
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  padding:2rem;
+
+}
+form{
+  display: block;
+  width: 25rem;
+}
+label{
+  color:white;
+font-family: 'Poppins', sans-serif;
+  
+}
+input{
+  width:22rem;
+  padding:.7rem;
+  margin-top:.6rem;
+
+}
+.quicklink{
+  width: 37rem;
+}
+ul{
+  display: flex;
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+li{
+font-family: 'Poppins', sans-serif;
+font-weight: normal;
+margin:1.2rem;
+}
+a {
+  text-decoration: none;
+  color:white;
+}
+#submit{
+  background: blue;
+  color: white;
+font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size:1rem;
+}
+.fab{
+  font-size:1.3rem;
+}
+.quote>h4{
+  color:white;
+font-family: 'Poppins', sans-serif;
+text-align:center;
+}
+.quote >p{
+font-family: 'Poppins', sans-serif;
+color: white;
+text-align:center;
+}
+.detail > h4{
+  color: white;
+font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+/*@media (max-width: 900px) {
  .container{
   margin: auto;
  }
@@ -109,4 +256,4 @@ border: 2px solid rgb(255, 255, 255);
    display: block;
   
   }
-}
+}*/
