@@ -21,19 +21,20 @@ body{
 }
 .container h2{
  text-align: center;
- color:var(--green);
+ color:var(--white);
  margin-top:.5rem;
  font-family: 'Poppins', sans-serif;
 
 }
 span{
  color: var(--yellow);
+ background: black;
 }
 .bio{
   width: 50%;
   margin: auto;
  margin-top:2.5rem;
- font-size: 1rem;
+ font-size: 1.2rem;
  color: var(--white)
 }
 .subabout{
@@ -53,14 +54,14 @@ span{
   margin: 2rem;
 }
 .hire{
- background-color: var(--green);
+ background-color: var(--white);
  width:10rem;
  padding: 1rem;
  border-radius: 0.7rem;
 margin: 1rem;
 border: 2px solid white;
 font-family: 'Poppins', sans-serif;
-font-size: 1rem;
+font-size: 1.2rem;
 font-weight: bold;
 
 }
@@ -73,7 +74,7 @@ margin-top:1rem;
 margin: 1rem;
 border: none;
 font-family: 'Poppins', sans-serif;
-font-size: 1rem;
+font-size: 1.2rem;
 font-weight: bold;
 color: black;
 
@@ -103,7 +104,7 @@ color: black;
   width: 20rem;
   border: 4px solid white;
   filter: drop-shadow(8px 8px 10px gray);
-  filter: hue-rotate(50deg)
+  filter: hue-rotate(50deg);
 }
 .about-text{
  width: 40%;
@@ -131,13 +132,16 @@ font-family: 'Poppins', sans-serif;
 .project-container{
   display: flex;
   justify-content: space-around;
+  justify-content: center;
+
 } 
 .project-Items{
   width: 22rem;
   background: white;
   box-shadow: 10px 10px rgb(216, 215, 215);
-  
-
+  margin: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 .project-image{
   width: 21.8rem;
@@ -238,22 +242,177 @@ text-align:center;
 .detail > h4{
   color: white;
 font-family: 'Poppins', sans-serif;
+}
 
+.builder >h4{
+  text-align:center;
+  color: white;
+font-family: 'Poppins', sans-serif;
+padding: 1rem;
 
 }
 
 
 
-/*@media (max-width: 900px) {
- .container{
-  margin: auto;
- }
- .about{
-  border: 2px solid red;
-  margin: auto;
- }
-  .about-container{
-   display: block;
+@media screen and (max-width: 767px){
+  /* Home Page */
+  .bio{
+    width: 90%;
+    margin: auto;
+   margin-top:2rem;
+   font-size: 1rem;
+  }
+  .buttons{
+    display: flex;
+    margin: fit-content;
+    margin-top:.4rem;
+    padding:.3rem;
+  }
+  .hire{
+   width:8rem;
+   padding: .8rem;
   
   }
-}*/
+  .cv{
+  width:8rem;
+  padding: .8rem;
+  
+  }
+
+  /* About Page */
+  .about-container{
+    display: block;
+   }
+   .about-img{
+    width: 82%;
+    margin: auto;
+   }
+   #Image{
+  width: 20rem;
+  border: 4px solid white;
+  transform: rotate(-10deg);
+}
+
+.about-text{
+  width: 90%;
+  text-align:center;
+  margin:auto;
+ }
+ .about-text >p{
+  color:var(--black);
+ font-family: 'Poppins', sans-serif;
+ margin-top: 1rem;
+ 
+  
+ }
+ .stacks{
+  color: white;
+ }
+ .about-text >h5{
+ color: var(--black);
+  font-size: 1.3rem;
+  margin-top: 2rem;
+ font-family: 'Poppins', sans-serif;
+ 
+ }
+
+  /* Project Page */
+  .project-container{
+    display: block;
+    width:91%;
+    margin:auto;
+  } 
+  .project-Items{
+    box-shadow: 10px 10px rgb(135, 122, 172);
+    margin-top:.8rem;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:.3;
+
+  }
+  /* Footer Page */
+  .footer-container{
+    display: block;
+    padding:0;
+  }
+  form{
+    display: block;
+    width: 90%;
+    margin: auto;
+
+  }
+  label{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+    
+  }
+  input{
+    width:22rem;
+    padding:.7rem;
+    margin-top:.6rem;
+  }
+  textarea{
+    width:22rem;
+  }
+  .quicklink{
+    width:24rem;
+
+  }
+  ul{
+    display: block;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+  }
+  li{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin:1.2rem;
+  text-align: center;
+
+  }
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  #submit{
+    background: blue;
+    color: white;
+  font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size:1rem;
+  }
+  .fab{
+    font-size:1.3rem;
+  }
+  
+  .quote>h4{
+    color:white;
+  font-family: 'Poppins', sans-serif;
+  font-weight:lighter;
+  text-align:center;
+  }
+  .quote >p{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align:center;
+  font-size: .8rem;
+  }
+  .detail{
+    text-align:center;
+  }
+  .detail > h4{
+    color: white;
+  font-family: 'Poppins', sans-serif;
+  }
+  .formtitle{
+    color: black;
+    text-align: center;
+    margin:1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  background: white;
+
+  }
+  
+}
