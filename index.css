@@ -128,6 +128,7 @@ font-family: 'Poppins', sans-serif;
 /* Project */
 .projects{
   background:url("Projectbg.png");
+
 }
 .project-container{
   display: flex;
@@ -141,7 +142,6 @@ font-family: 'Poppins', sans-serif;
   box-shadow: 10px 10px rgb(216, 215, 215);
   margin: 4rem;
   margin-top: 2rem;
-  margin-bottom: 4rem;
 }
 .project-image{
   width: 21.8rem;
@@ -183,7 +183,8 @@ font-family: 'Poppins', sans-serif;
 .footer-container{
   display: flex;
   justify-content: space-around;
-  padding:2rem;
+  padding:3rem;
+  margin-top:3rem;
 
 }
 form{
@@ -358,6 +359,7 @@ padding: 1rem;
     width:24rem;
 
   }
+ 
   ul{
     display: block;
     margin:0;
