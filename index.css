@@ -115,7 +115,7 @@ color: black;
 }
 .about-text{
  width: 40%;
- text-align:center
+ text-align:center;
 }
 .about-text >p{
  color:var(--black);
