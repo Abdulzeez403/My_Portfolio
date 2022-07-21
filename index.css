@@ -19,6 +19,13 @@ body{
  text-align: center;
 
 }
+marquee > h5{
+  color: white;
+ font-family: 'Poppins', sans-serif;
+ margin:1rem;
+ font-size: 1rem;
+
+}
 .container h2{
  text-align: center;
  color:var(--white);
