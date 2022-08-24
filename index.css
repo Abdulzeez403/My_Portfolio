@@ -211,6 +211,14 @@ input{
   width:22rem;
   padding:.7rem;
   margin-top:.6rem;
+  outline: none;
+
+}
+
+textarea {
+  padding: 5px;
+  outline: none;
+
 
 }
 .quicklink{
@@ -363,8 +371,11 @@ padding: 1rem;
     padding:.7rem;
     margin-top:.6rem;
   }
+   
+  
   textarea{
     width:22rem;
+    margin: 5px;
   }
   .quicklink{
     width:24rem;
