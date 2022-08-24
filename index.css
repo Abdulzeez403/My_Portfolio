@@ -6,18 +6,22 @@
  --yellow: rgb(255, 255, 0);
 }
   
-*{
+* {
  padding:0;
  margin:0;
  box-sizing: border-box;
 }
+
 body{
   scroll-behavior: smooth;
 }
-.content{
-  background: url("background.png");
- text-align: center;
+.container{
+  position: relative;
 
+}
+.content{
+  background: url("Images/background.png");
+text-align: center;
 }
 marquee > h5{
   color: white;
@@ -26,13 +30,13 @@ marquee > h5{
  font-size: 1rem;
 
 }
-.container h2{
- text-align: center;
- color:var(--white);
- margin-top:.5rem;
- font-family: 'Poppins', sans-serif;
-
-}
+.content > h2{
+  text-align: center;
+  color:var(--white);
+  margin-top:.5rem;
+  font-family: 'Poppins', sans-serif;
+ 
+ }
 span{
  color: var(--yellow);
  background: black;
@@ -134,7 +138,7 @@ font-family: 'Poppins', sans-serif;
 
 /* Project */
 .projects{
-  background:url("Projectbg.png");
+  background:url("./Projectimg/Projectbg.png");
 
 }
 .project-container{

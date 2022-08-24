@@ -4,18 +4,51 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="icon" type="image/png" href="./image.png">
- <link rel="stylesheet" href="index.css">
+
+ 
+    <!-- Bootstrap CSS 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+    
+<!-- CSS Styling  -->
+<link rel="stylesheet" href="index.css">
+
+
+<!-- Tag Image(Favicon)  -->
+ <link rel="icon" type="image/png" href="./image.png" />
+
+<!-- Google font Link  -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,900&display=swap" rel="stylesheet">
+
+
+<!-- Fontawesome Icons  -->
 <script src="https://kit.fontawesome.com/f382dd7305.js" crossorigin="anonymous"></script>
+
+
+
+
+
  <title> Sodiq Abdulazeez Portfolio &#9749;</title>
 </head>
 <body>
 
  <div class="container">
   <div class="content">
+<!--   
+ Default dropup button 
+<div class="btn  " style="position:absolute">
+  <button type="button" class="btn  dropdown-toggle bg bg-primary" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fab fa-github"></i>
+  </button>
+
+
+  <ul class="dropdown-menu p-2 "  style="max-width:10px">
+    <li class="icons"> <a href="https://api.whatsapp.com/send?phone=2348184328738"> <i class="fab fa-whatsapp"></i>  </a> </li>
+    <li class="icons"> <a href="https://github.com/Abdulzeez403/"><i class="fab fa-github"></i> </a> </li>
+  </ul>
+</div>  -->
+
   <marquee >
     <h5 class="movingtext"> I'm avaliable for job </h5>
     </marquee>
@@ -24,11 +57,11 @@
     <br />
     <br />
   
-  <img src="./image.png"  id="pro-Image" alt="">
+  <img src="./Images/image.png"  id="pro-Image" alt="">
   <h2> I am   <span class="text">Coding</span></h2>
   <div class="bio">
     <p class="subabout">
-      Hello &#129312;, My name is Sodiq Abdulzeez, I m a front end developer, web Designer Graphic Designer and UI designer with 2years of experience, i have built website and web application that are responsive and fast and for small business and medium business and i m avaliable for any job...
+      Hello &#129312;, My name is Sodiq Abdulzeez, I m a front end developer, web Designer Graphic Designer and UI designer with 2years of experience. I have built websites and web applications that are responsive and scalable for small business and medium business and I m avaliable for any job...
     </p>
   </div>
 <div class="buttons">
@@ -37,8 +70,10 @@
   </a>
 </div>
 
- </div>
+ </div>s
+<div>
 
+</div>
 <div class="about">
   <div class="aboutMe">
     <h3>More About me</h3>
@@ -47,7 +82,7 @@
   <br/>
  <div class="about-container">
   <div class="about-img">
-   <img src="./image1.jpg" id="Image" alt="aboutImage">
+   <img src="./Images/image1.jpg" id="Image" alt="aboutImage">
   </div>
 
   <div class="about-text">    
@@ -110,7 +145,7 @@
      </div>
      <div class="project-Items">
       <div>
-      <img src="background.png" alt="projects" class="project-image">
+      <img src=" ./Images/background.png" alt="projects" class="project-image">
     </div>
 
       <h4 class="project-name">School website</h4>
@@ -171,19 +206,19 @@
 
 
 
-    <form action="" method="post" id="footerlink">
+    <form action="https://formsubmit.co/f9555b1ce962fbae9609c27a7df877e5" method="POST" id="footerlink">
       <h3 class="formtitle">Contact</h2>
       <label for="Name">Name</label>
       <br/>
-      <input type="text">
+      <input type="text" name="name" id="name" required >
       <br/>
       <label for="Name">Email</label>
       <br/>
-      <input type="email">
+      <input type="email" name="email" id="email" required >
       <br/>
       <br/>
 
-      <textarea name="" id="" cols="43" rows="10" placeholder="Messaging..">
+      <textarea name="message" id="" cols="43" rows="10" placeholder="Messaging..">
       </textarea>
       <br/>
 
@@ -198,24 +233,20 @@
 </div>
 
 
+<!-- Bootstap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-
-
-
+<!-- Autotyping text link -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 
 <script>
  var typed = new Typed(".text",{
- strings: ['Coding','Abdulazeez Sodiq', 'Web developer', 'Graphic Designer', 'UI & UX Designer'],
+ strings: ['Coding',' Sodiq Abdulazeez', 'Web developer', 'Graphic Designer', 'UI & UX Designer'],
  typeSpeed: 100,
  backSpeed: 100,
  loop: true
  });
-
- 
-
-
 
   </script>
 
