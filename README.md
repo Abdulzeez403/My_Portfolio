@@ -1,2 +1,2 @@
-# auto-typing
-landing page with typing effect
+# My Portfolio
+A simple portfolio buit with pure langauges
