@@ -18,6 +18,7 @@ body{
 }
 ::-webkit-scrollbar{
   width: 13px;
+  height: hidden;
 }
 ::-webkit-scrollbar-track{
   background: white;
@@ -33,7 +34,7 @@ body{
 }
 .content{
   background: url("Images/background.png");
-text-align: center;
+   text-align: center;
 }
 
 /* CSS Skeleton */
@@ -54,13 +55,11 @@ align-items:center;
 
 }
 .snipper {
-
   width:140px;
   height: 140px;
   border-radius: 60%;
   border: 6px solid rgb(250, 247, 247);
-  border-top: 6px solid rgb(0, 157, 255);
-  border-bottom: 6px solid rgb(34, 157, 201);
+  border-top: 6px dotted rgb(0, 157, 255);
   animation: spin 1s linear infinite;
 }
 
@@ -77,6 +76,8 @@ marquee > h5{
   color:var(--white);
   margin-top:.5rem;
   font-family: 'Poppins', sans-serif;
+
+
  
  }
 span{
@@ -186,18 +187,17 @@ font-family: 'Poppins', sans-serif;
 .project-container{
   display: flex;
   justify-content: space-around;
-  justify-content: center;
+  /* gap: 4rem; */
 
 } 
 .project-Items{
-  width: 22rem;
+  width: 20rem;
   background: white;
   box-shadow: 10px 10px rgb(216, 215, 215);
-  margin: 4rem;
-  margin-top: 2rem;
+
 }
 .project-image{
-  width: 21.8rem;
+  width: 19.8rem;
   height: 12rem;
 }
 .project-name{
@@ -231,30 +231,38 @@ font-family: 'Poppins', sans-serif;
 }
 .footer{
   background:black;
+  
 
 }
 .footer-container{
+  
   display: flex;
   justify-content: space-around;
-  padding:3rem;
-  margin-top:3rem;
+  width:80%;
+  margin: auto;
+  align-items: center;
+
+
+  /* padding:3rem;
+  margin-top:3rem; */
 
 }
 form{
   display: block;
   width: 25rem;
 }
+.formController{
+  margin-top: 1rem;
+}
 label{
   color:white;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   
 }
 input{
   width:22rem;
   padding:.7rem;
-  margin-top:.6rem;
   outline: none;
-
 }
 
 textarea {
@@ -263,8 +271,12 @@ textarea {
 
 
 }
+textarea::placeholder{
+  color: black;
+}
 .quicklink{
   width: 37rem;
+
 }
 ul{
   display: flex;
@@ -276,6 +288,7 @@ li{
 font-family: 'Poppins', sans-serif;
 font-weight: normal;
 margin:1.2rem;
+
 }
 a {
   text-decoration: none;
@@ -304,6 +317,8 @@ text-align:center;
 .detail > h4{
   color: white;
 font-family: 'Poppins', sans-serif;
+text-align: center;
+
 }
 
 .builder >h4{
@@ -316,8 +331,11 @@ padding: 1rem;
 
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
   /* Home Page */
+  ::-webkit-scrollbar{
+    width: none;
+  }
   .bio{
     width: 90%;
     margin: auto;
@@ -380,22 +398,17 @@ padding: 1rem;
 
   /* Project Page */
   .project-container{
-    display: block;
-    width:91%;
-    margin:auto;
+    display:grid ;
+    
   } 
   .project-Items{
     box-shadow: 10px 10px rgb(135, 122, 172);
-    margin-top:.8rem;
-    margin-left:0;
-    margin-right:0;
-    margin-bottom:.3;
-
+   margin-top:2rem;
   }
   /* Footer Page */
   .footer-container{
-    display: block;
-    padding:0;
+    display: grid;
+  
   }
   form{
     display: block;
@@ -418,8 +431,9 @@ padding: 1rem;
   
   textarea{
     width:22rem;
-    margin: 5px;
     background: white;
+    margin-top: 3px;
+
 
   }
   .quicklink{
