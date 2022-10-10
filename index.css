@@ -4,6 +4,7 @@
  --white: rgba(255, 255, 255, 0.925);
  --black: rgba(26, 14, 14, 0.927);
  --yellow: rgb(255, 255, 0);
+ --purple: rgb(72, 72, 195);
 }
   
 * {
@@ -11,7 +12,7 @@
  margin:0;
  box-sizing: border-box;
 }
-
+html,
 body{
   scroll-behavior: smooth;
   
@@ -21,10 +22,10 @@ body{
   height: hidden;
 }
 ::-webkit-scrollbar-track{
-  background: white;
+  background: var(--white);
 }
 ::-webkit-scrollbar-thumb{
-  background: rgb(72, 72, 195);
+  background: var(--purple);
   border-radius: 50px;
   
 }
@@ -34,12 +35,12 @@ body{
 }
 .content{
   background: url("Images/background.png");
-   text-align: center;
+  text-align: center;
 }
 
 /* CSS Skeleton */
 .Skeleton{
-  background: rgb(11, 11, 11);
+  background: var(--black);
   position: fixed;
   width:100%;
   height: 100%;
@@ -192,7 +193,7 @@ font-family: 'Poppins', sans-serif;
 } 
 .project-Items{
   width: 20rem;
-  background: white;
+  background: var(--white);
   box-shadow: 10px 10px rgb(216, 215, 215);
 
 }
@@ -430,7 +431,7 @@ padding: 1rem;
    
   
   textarea{
-    width:22rem;
+    width:22.8rem;
     background: white;
     margin-top: 3px;
 
