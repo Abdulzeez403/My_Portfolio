@@ -302,13 +302,13 @@ a {
     font-size: 1rem;
   }
   .buttons {
-    display: flex;
+    display: block;
     margin: fit-content;
     margin-top: 0.4rem;
     padding: 0.3rem;
   }
   .hire {
-    width: 10rem;
+    width: 11rem;
     padding: 0.8rem;
   }
   .cv {
@@ -351,7 +351,7 @@ a {
   }
 
   /* Project Page */
-  .project-container {
+  .projectContainer {
     display: grid;
   }
   .project-Items {
